@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my shop</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+         .login-container {
+        
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 300px;
+            width: 100%;
+            position: fixed;
+            top:200px;
+            left: 90px;
+        }
+
+        .login-container h2 {
+            color: #e91e63;
+        }
+
+        .login-container label {
+            display: block;
+            margin: 16px 0 8px;
+            color: #333;
+        }
+
+        .login-container input {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border: 1px solid #e91e63;
+            border-radius: 4px;
+        }
+
+        .login-container button {
+            background-color: #e91e63;
+            color: #fff;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .login-container button:hover {
+            background-color: #c2185b;
+        }
+
+        .signup-link {
+            margin-top: 16px;
+            color: #e91e63;
+        }
+
+        .signup-link a {
+            color: #e91e63;
+            text-decoration: none;
+        }
+
+        .signup-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+  
+</head>
+<body>
+    <header>
+        <h1>Honi shop</h1>
+    </header>
+    <div class="linkk">
+        <a href="index.html">Home</a> | 
+        <a href="dress.html">dress</a> | 
+        <a href="pants.html">pants</a>
+        <a href="bag.html">bag</a>
+        <a href="shirt.html">shirt</a>
+        <a href="shoes.html">shoes</a>
+        <a href="top.html">top</a>
+  
+   </div>
+
+
+   <div class="login-container">
+    <h2> Login Into Your Acount</h2>
+
+    <form action="/login" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Login</button>
+    </form>
+
+    <div class="signup-link">
+        Don't have an account? <a href="/signup">Sign up here</a></div>
+    
+   </div>
+
+ 
+
+
+   
+
+
+  
+
+</body>
+</html>
